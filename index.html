@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mobile Restaurant Menu</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mobile Restaurant Menu</title>
+</head>
+
+<body>
+
+  <nav class="banner">
+    <div>
+      <p class="name">Veronica's Burger </p>
+      <p class="description">The best burgers and pizzas in town.</p>
+    </div>
+  </nav>
+  <main>
+    <div id="container">
+
+    </div>
+
+    <div id="orders-div" class="orders-div hidden">
+      <p class="your-orders"> Your Order</p>
+      <div class="cart-details">
+        <!--orders container 
+ -->
+      </div>
+      <hr>
+      <div class="total-price">Total price :<span id="total">0</span></div>
+      <button id="complete-btn">Complete Order</button>
+
+    </div>
+</body>
+</main>
+<form id="payment-form" class="payment-div">
+
+  <p class="header">Enter card details</p>
+  <input type="text" class="customer-name" placeholder="Enter your name" name="name" id="name" required></input>
+  <input type="text" maxlength="16" class="card-number" placeholder="Enter card number" name="card-number" id="card-number" required></input>
+
+  <input type="text" maxlength="3" class="card-cvv" placeholder="Enter CVV" name="card-cvv" id="card-cvv" required></input>
+  <button type="submit" id="pay-btn">Pay</button>
+
+</form>
+<h2 class="order-msg" id="order-msg"></h2>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

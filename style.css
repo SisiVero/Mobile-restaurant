@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  background: url("https://images.unsplash.com/photo-1616645500344-209060c84970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=formt&fit=crop&w=600&q=60")
+    no-repeat center center;
+  width: 100%;
+  height: 167px;
+  display: flex;
+  background-size: cover;
+  margin-bottom: 67px;
+}
+body {
+  font-family: "Smythe", cursive;
+  letter-spacing: 1.4px;
+  max-width: 600px;
+  margin: 25px auto;
+  box-shadow: 0 0 4px #3c3c3c;
+}
+.name {
+  font-size: 39px;
+  color: #ffffff;
+  padding: 46px 0 8px 46px;
+}
+.description {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 0 0 70px 46px;
+  letter-spacing: 2px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  max-width: 900px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 140px;
+  width: 508px;
+  background: #ffffff;
+  border-bottom: 1px solid #d2d2d2;
+  gap: 30px;
+}
+
+.food-img {
+  font-size: 78px;
+
+  display: block;
+}
+.food {
+  font-size: 28px;
+}
+#food,
+#food-price,
+#total {
+  font-size: 28px;
+}
+.ingredients {
+  font-sze: 16px;
+}
+.price {
+  font-size: 20px;
+}
+#add-btn {
+  font-size: 32px;
+  font-weight: light;
+  color: #3c3c3c;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #dedede;
+  margin-left: auto;
+  cursor: pointer;
+}
+.orders-div {
+  margin: 45px 46px 53px 46px;
+}
+#ordered-items {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.your-orders {
+  font-size: 28px;
+  text-align: center;
+}
+.total-price {
+  font-size: 28px;
+  display: flex;
+}
+#complete-btn {
+  width: 508px;
+  height: 60px;
+  background: #16db99;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  margin: 53px auto;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Oxygen", sans-serif;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+hr {
+  width: 508px;
+  margin: 28px auto;
+  background-color: black;
+}
+#total {
+  display: inline-block;
+  margin-left: auto;
+}
+.remove {
+  color: #bbbbbb;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+.remove:hover {
+  color: red;
+  font-weight: bold;
+}
+
+#food-price {
+  display: inline-block;
+  margin-left: auto;
+}
+#payment-form {
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 450px;
+  background: #fff;
+  height: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  padding: 20px 23px 0px 23px;
+  border-radius: 4px;
+  box-shadow: 0 0 50px 10px #757575;
+}
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 47px 0 46px 0;
+}
+input {
+  width: 100%;
+  height: 60px;
+  padding: 16px 23px;
+  margin-bottom: 23px;
+  font-size: 20px;
+  color: #757575;
+  border: 1px solid #757575;
+  outline: none;
+  border-radius: 4px;
+}
+#pay-btn {
+  height: 60px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  background: #16db99;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-msg {
+  display: none;
+  padding: 30px 45px;
+  border-radius: 3px;
+  color: #883000;
+}
