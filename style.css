@@ -185,6 +185,7 @@ input {
 
 .order-msg {
   display: none;
+  text-align:center;
   padding: 30px 45px;
   border-radius: 3px;
   color: #883000;
